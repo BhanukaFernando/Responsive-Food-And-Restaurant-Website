@@ -350,6 +350,7 @@ p {
     padding: 0 11% 0.625rem;
 
 }
+
 /* carosel btn style */
 .testimonial-section .carousel-indicators {
     bottom: -2.8125rem;
@@ -370,18 +371,66 @@ p {
 }
 
 /* F&Q design */
-.faq h4 span{
-    color:var(--primary-color);
+.faq h4 span {
+    color: var(--primary-color);
     font-size: 1.875rem;
-    margin-right:0.3125rem;
-  } 
+    margin-right: 0.3125rem;
+}
 
-  /* book-food */
-  .book-food{
+/* book-food */
+.book-food {
     width: 100%;
     background: url(/images/bg/bg-3.jpg) no-repeat center;
-    background-size:cover ;
-    background-attachment:fixed ;
+    background-size: cover;
+    background-attachment: fixed;
     background-position: 0 71.9125px;
     padding: 4.375rem 0;
-  }
+}
+
+/* form control */
+.newsletter {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.newsletter .form-control {
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border: 0.1875rem solid var(--text-gray);
+    color: var(--black-color);
+    font-weight: 700;
+}
+
+.newsletter .form-control:hover,
+.newsletter .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+
+.footer{
+    background: var(--primary-color);
+}
+.footer .footer-link{
+    color: var(--white-color);
+    font-size: 1rem;
+    padding: 0 1.875rem;
+}
+.footer .footer-link:hover{
+    color: var(--third-color) !important;
+}
+.footer a i{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+}
+.footer a i:hover{
+    color: var(--text-gray);
+}
+
